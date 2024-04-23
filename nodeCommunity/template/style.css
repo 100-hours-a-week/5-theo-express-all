@@ -1,0 +1,1053 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  justify-content: center;
+  margin: 0;
+  background-color: #F4F5F7;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 405px;
+  background-color: transparent;
+  padding-bottom: 60px;
+  margin: auto;
+}
+
+header {
+  padding-top: 0%;
+  height: 103px;
+  border-style: solid;
+  border-color: #F4F5F7;
+  border-width: 1px;
+  border-bottom-color: black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+header .text {
+  padding-right: 4%;
+  margin-left: 5%;
+  font-size: 32px;
+}
+
+header .headerImage {
+  background-image: url(res/logo.webp);
+  width: 36px;
+  height: 36px;
+  border-radius: 70%;
+  border: none;
+}
+
+header .prev {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #F4F5F7;
+}
+
+.prev .arrow {
+  width: 18px;
+  height: 18px;
+  border-top: solid 2px #000000;
+  border-right: solid 2px #000000;
+  transform: rotate(225deg);
+}
+
+.loginText {
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.loginText p {
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+
+.email p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.pass p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.infoBox {
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.infoBox .inputDiv {
+  justify-content: center;
+  display: flex;
+}
+
+.infoBox p {
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-top: 22px;
+  padding-left: 6%;
+}
+
+.infoBox .inputForm {
+  width: 355px;
+  height: 33px;
+}
+
+.infoBox .inputBox {
+  width: 100%;
+  height: 33px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.infoBox .help {
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 6%;
+  color: #FF0000;
+  /* display: none; */
+}
+
+.loginButton {
+  justify-content: center;
+  display: flex;
+}
+
+.loginButton form {
+  justify-content: center;
+  display: flex;
+  width: 361px;
+  height: 37px;
+}
+
+.loginButton form button {
+  width: inherit;
+  background-color: #ACA0EB;
+  color: #FFFFFF;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+.register {
+  justify-content: center;
+  display: flex;
+}
+
+.register a {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: none;
+  color: black;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/* **게시글 목록조회** */
+
+/* mainText */
+
+.listWrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 592px;
+  background-color: transparent;
+  margin: auto;
+}
+
+.listWrap .mainText {
+  margin-top: 10%;
+}
+
+.listWrap .mainText p {
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  white-space: pre;
+}
+
+.listWrap .mainText p span {
+  font-weight: 700;
+}
+
+/* create */
+
+.create {
+  justify-content: right;
+  display: flex;
+}
+
+.create .form {
+  width: 138px;
+  height: 39px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.create .form .button {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  padding: 0;
+  border-width: 0;
+  background-color: #ACA0EB;
+  color: #FFFFFF;
+}
+
+.listWrap .post {
+  width: 100%;
+  height: 169px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  margin: 5px;
+  border: solid #D9D9D9 3px;
+  border-top: none;
+  border-left: none;
+}
+
+.post .postInfo {
+  padding-bottom: 1px;
+  border: #000000;
+  margin-left: 4%;
+  margin-top: 2%
+}
+
+.post .title p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.post .info {
+  justify-content: space-between;
+  display: flex;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+
+.post .info p {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: pre;
+}
+
+.post .horizen {
+  height: 2px;
+  border: none;
+  background-color: #F4F5F7;
+  margin: 0;
+}
+
+.post .user {
+  display: flex;
+  margin-left: 4%;
+}
+
+.user .profileImage {
+  width: 36px;
+  height: 36px;
+  border-radius: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.user p {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+
+
+/* userUpdate */
+
+.userUpdate {
+  justify-content: center;
+  display: flex;
+  margin-top: 100px
+}
+
+.userUpdate p {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.profileText {
+  display: flex;
+  padding-left: 6%;
+}
+
+.profileText p {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.profile {
+  justify-content: center;
+  display: flex;
+}
+
+.profile .profileImage {
+  background-image: url(res/penguin.webp);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 149px;
+  height: 149px;
+  border-radius: 70%;
+  opacity: 55%;
+}
+
+.profile .profileImage .update {
+  width: 52px;
+  height: 27px;
+  border-radius: 55px;
+  border-width: 1px;
+  background-color: inherit;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  border: solid;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.userInfo {
+  padding-left: 6%;
+}
+
+.userInfo .bold {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.userInfo .mail {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.userInfo form .nickname {
+  width: 355px;
+  height: 33px;
+}
+
+.userInfo .help {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FF0000;
+  margin-top: 0;
+}
+
+.edit form {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.edit form button {
+  width: 355px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #ACA0EB;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.out form {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+
+.out form button {
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  background-color: #F4F5F7;
+}
+
+.done {
+  display: none;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.done.on {
+  display: flex;
+}
+
+.done p {
+  width: 102px;
+  height: 46px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #ACA0EB;
+  color: #FFFFFF;
+  border-radius: 30px;
+}
+
+/* userPassword는 login 재사용 */
+
+.updateButton {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.updateButton form {
+  justify-content: center;
+  display: flex;
+  width: 361px;
+  height: 37px;
+}
+
+.updateButton form button {
+  width: inherit;
+  background-color: #ACA0EB;
+  color: #FFFFFF;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+.pass .userPass {
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-top: 3px;
+  padding-left: 6%;
+}
+
+/* userRegister */
+
+.help {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FF0000;
+  margin-top: 0;
+  padding-left: 3%;
+}
+
+.profileText .profileT {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.createProfile {
+  background-image: url(res/sqaure.png);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 149px;
+  height: 149px;
+  border-radius: 70%;
+}
+
+.createProfile .hor {
+  border-bottom: solid #000000;
+  width: 24px;
+  position: absolute;
+}
+
+.profile .ver {
+  border-right: solid #000000;
+  height: 24px;
+  position: absolute;
+}
+
+
+/* boardDetail 게시글 상세조회 */
+
+.detailTitle {
+  display: inline;
+  border-bottom: #D9D9D9 solid 1px;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.detailTitle p {
+  margin: 0;
+}
+
+.detailTitle .subTitle {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.subTitle .title {
+  display: flex;
+  align-items: center;
+}
+
+.detailTitle .bold {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.detailTitle .title img {
+  width: 36px;
+  height: 36px;
+  border-radius: 70%;
+}
+
+.subTitle .title .user {
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 7px;
+  padding-right: 20px;
+}
+
+.subTitle .title p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.subTitle .title .titleButton {
+  padding-left: 5px;
+}
+
+.subTitle .title .button {
+  width: 50px;
+  height: 26px;
+  padding: 0;
+  background-color: #F4F5F7;
+  border: #ACA0EB solid 1px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.main {
+  border-bottom: solid #D9D9D9 1px;
+}
+
+.main .imgDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.main img {
+  width: 544px;
+  height: 306px;
+}
+
+.main .text {
+  margin: auto;
+  max-width: 544px;
+}
+
+.main p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.visit {
+  display: flex;
+  justify-content: center;
+}
+
+.visit .info {
+  background-color: #D9D9D9;
+  border-radius: 16px;
+  width: 116px;
+  height: 77px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5px;
+}
+
+.visit .info p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.visit .info .inf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.comment {
+  height: 169px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  margin-top: 5%;
+}
+
+.comment hr {
+  margin: 0;
+  border: solid 0.5px;
+  border-color: #D9D9D9;
+}
+
+.comment .box {
+  height: 50%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.comment .box form {
+  width: 100%;
+}
+
+.comment .box textarea {
+  font-size: 15px;
+  font-weight: 400;
+  width: 100%;
+  height: 50%;
+  resize: none;
+  border-width: 0;
+}
+
+.comment .submit {
+  display: flex;
+  justify-content: right;
+  padding-right: 3%;
+}
+
+.comment .submit button {
+  width: 138px;
+  height: 39px;
+  background-color: #ACA0EB;
+  border: none;
+  border-radius: 16px;
+  color: #FFFFFF;
+  margin-top: 2%;
+  margin-bottom: auto;
+  padding-bottom: 0;
+}
+
+.userComment {
+  /* width: 282px;
+  height: 65px; */
+  margin-top: 2%;
+}
+
+.userComment .commentInfo {
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  justify-content: space-between;
+}
+
+.userComment .commentInfo .commentEdit {
+  display: flex;
+  align-items: center;
+}
+
+.userComment .commentInfo .commentTitle{
+  display: flex;
+  justify-content: center;
+}
+
+.userComment .commentInfo .commentButton {
+  width: 50px;
+  height: 26px;
+  margin-left: 3px;
+  background-color: #F4F5F7;
+  border: #ACA0EB solid 1px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.userComment .bold {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.userComment .commentInfo img {
+  width: 36px;
+  height: 36px;
+  border-radius: 70%;
+}
+
+.userComment .commentInfo .user {
+  font-size: 15px;
+  font-weight: 700;
+  padding-left: 7px;
+  padding-right: 20px;
+}
+
+.userComment .commentInfo p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.userComment .commentText {
+  padding-left: 10%;
+}
+
+.userComment .commentText p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* boardCreate 게시글 작성 */
+
+.postTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.postTitle p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+.createTitle p {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 3%;
+  margin-top: 5%
+}
+
+.createTitle form {
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  border: solid #D9D9D9 1px;
+  border-left: none;
+  border-right: none;
+}
+
+.createTitle form input {
+  width: 94%;
+  height: 50px;
+  background-color: #F4F5F7;
+  border: none;
+  font-size: 16;
+  font-weight: 700;
+}
+
+.createTitle .postCreate {
+  height: 300px;
+  font-weight: 400;
+}
+
+.createTitle .postCreate .postText {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  border: solid #D9D9D9 1px;
+  border-right: 0px;
+  border-left: 0px;
+  resize: none;
+  background-color: #F4F5F7;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+#helpCreateMain{
+  margin-top: 3%;
+}
+
+.upload {
+  margin-left: 3%;
+}
+
+.upload p {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.upload .file {
+  display: flex;
+  align-items: center;
+}
+
+.upload .file p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.file button {
+  font-size: 14px;
+  height: 30px;
+  margin-right: 1%;
+}
+
+.doneUpload form {
+  justify-content: center;
+  display: flex;
+  margin-top: 25px;
+}
+
+.doneUpload form button {
+  width: 355px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #ACA0EB;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* userUpdate 게시글 수정 */
+
+.createTitle .title {
+  display: flex;
+  justify-content: left;
+}
+
+.createTitle .title input {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 3%;
+}
+
+.postCreateDummy {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.postCreateDummy p {
+  margin: 0;
+  font-size: 145x;
+  font-weight: 400;
+}
+
+.hide {
+  display: none;
+}
+
+.createProfile img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 149px;
+  height: 149px;
+  border-radius: 70%;
+}
+
+/* modal 부분 */
+
+.modal {
+  display: none;
+  /*평소에는 보이지 않도록*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.modal.on {
+  display: block;
+}
+
+.modal .popup {
+  position: absolute;
+  width: 408px;
+  height: 242px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.modal .popup p {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.modal .popup label {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.modal .popup .popupButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.modal .popup .popupButton .cancel {
+  width: 127px;
+  height: 43px;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-width: 0;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.modal .popup .popupButton .ok {
+  width: 127px;
+  height: 43px;
+  font-size: 24px;
+  color: #000000;
+  background-color: #C4A5FA;
+  border-width: 0;
+  border-radius: 12px;
+}
+
+/* 댓글 모달 */
+
+.commentModal {
+  display: none;
+  /*평소에는 보이지 않도록*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vmax;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.commentModal.on {
+  display: block;
+}
+
+.commentModal .popup {
+  position: absolute;
+  width: 408px;
+  height: 242px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.commentModal .popup p {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.commentModal .popup label {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.commentModal .popup .popupButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.commentModal .popup .popupButton .cancel {
+  width: 127px;
+  height: 43px;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-width: 0;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.commentModal .popup .popupButton .ok {
+  width: 127px;
+  height: 43px;
+  font-size: 24px;
+  color: #000000;
+  background-color: #C4A5FA;
+  border-width: 0;
+  border-radius: 12px;
+}
+
+/* 헤더 이미지 드롭다운 */
+.headerImage.on > ul {
+  display: block;
+}
+
+.headerImage ul {
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.headerImage ul li {
+  height: 35px;
+  width: 115px;
+  background-color: #D9D9D9;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerImage ul li a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.headerImage ul li a:hover {
+  background-color: #d0d0d0;
+}

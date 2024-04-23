@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>boardDetail</title>
+</head>
+<body>
+    <header>
+        <button class="prev"><div class="arrow"></div></button>
+        <p class="text">아무 말 대잔치</p>
+        <button class="headerImage">
+            <ul>
+                <li><a href="./userUpdate.html">회원정보수정</a></li>
+                <li><a href="./userPassword.html">비밀번호수정</a></li>
+                <li><a href="./login.html">로그아웃</a></li>
+            </ul>
+        </button>
+    </header>
+
+    <div class="modal">
+        <div class="popup">
+            <p>게시글을 삭제하시겠습니까?</p>
+            <label>삭제된 내용은 복구할 수 없습니다.</label>
+            <div class="popupButton">
+                <form><button class="cancel">취소</button></form>
+                <form><button type="button" class="ok" id="postOk">확인</button></form>
+            </div>
+        </div>
+    </div>
+    <div class="commentModal">
+        <div class="popup">
+            <p>댓글을 삭제하시겠습니까?</p>
+            <label>삭제된 내용은 복구할 수 없습니다.</label>
+            <div class="popupButton">
+                <form><button class="cancel">취소</button></form>
+                <form><button type="button" class="ok" id="commentOk">확인</button></form>
+            </div>
+        </div>
+    </div>
+
+    <section class="listWrap">
+        <div class="detailTitle">
+            <p class="bold">제목 1</p>
+            <div class="subTitle">
+                <div class="title">
+                    <img src="res/sqaure.png">
+                    <p class="user">더미 작성자1</p>
+                    <p class=>2021-01-01 00:00:00</p>
+                </div>
+                <div class="title">
+                    <div><form><button type="button" class="button" id="postEdit">수정</button></form></div>
+                    <div class="titleButton"><form><button type="button" class="button" id="postDelete">삭제</button></form></div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="imgDiv"><img src="res/sqaure.png"></div>
+            <div class="text">
+                <p>새로운 회계연도가 개시될 때까지 예산안이 의결되지 못한 때에는 정부는 국회에서 예산안이 의결될 때까지 다음의 목적을 위한 경비는 전년도 예산에 준하여 집행할 수 있다.</p>
+                <p>국무위원은 국무총리의 제청으로 대통령이 임명한다. 국회의원은 법률이 정하는 직을 겸할 수 없다. 법관은 탄핵 또는 금고 이상의 형의 선고에 의하지 아니하고는 파면되지 아니하며, 징계처분에 의하지 아니하고는 정직·감봉 기타 불리한 처분을 받지 아니한다.</p>
+                <p>정당의 설립은 자유이며, 복수정당제는 보장된다. 대통령은 국가의 안위에 관계되는 중대한 교전상태에 있어서 국가를 보위하기 위하여 긴급한 조치가 필요하고 국회의 집회가 불가능한 때에 한하여 법률의 효력을 가지는 명령을 발할 수 있다.</p>
+                <p>연소자의 근로는 특별한 보호를 받는다. 저작자·발명가·과학기술자와 예술가의 권리는 법률로써 보호한다. 국민경제의 발전을 위한 중요정책의 수립에 관하여 대통령의 자문에 응하기 위하여 국민경제자문회의를 둘 수 있다.</p>
+            </div>
+            <div class="visit">
+                <div class="info">
+                    <p class="inf">123</p>
+                    <p>조회수</p>
+                </div>
+                <div class="info">
+                    <p class="inf">123</p>
+                    <p>댓글</p>
+                </div>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="box">
+                <form>
+                    <textarea id="commentSubmit" cols="3" rows="4" placeholder="댓글을 입력해주세요."></textarea>
+                </form>
+            </div>
+            <hr>
+            <div class="submit"><button type="button" id="commentUpload">댓글 등록</button></div>
+        </div>
+        <div class="userComment">
+            <div class="commentInfo">
+                <div class="commentEdit">
+                    <img src="res/sqaure.png">
+                    <p class="user">더미 작성자 1</p>
+                    <p>2021-01-01 00:00:00</p>
+                </div>
+                <div class="commentTitle">
+                    <div><form><button type="button" class="commentButton" id="commentUpdate">수정</button></form></div>
+                    <div class="titleButton"><form><button type="button" class="commentButton" id="commentDelete">삭제</button></form></div>
+                </div>
+            </div>
+            <div class="commentText"><p id="commentValue">댓글 내용</p></div>
+        </div>
+        <div class="userComment">
+            <div class="commentInfo">
+                <div class="commentEdit">
+                    <img src="res/sqaure.png">
+                    <p class="user">더미 작성자 1</p>
+                    <p>2021-01-01 00:00:00</p>
+                </div>
+                <div class="commentTitle">
+                    <div><form><button class="commentButton">수정</button></form></div>
+                    <div class="titleButton"><form><button class="commentButton">삭제</button></form></div>
+                </div>
+            </div>
+            <div class="commentText"><p>댓글 내용</p></div>
+        </div>
+        <div class="userComment">
+            <div class="commentInfo">
+                <div class="commentEdit">
+                    <img src="res/sqaure.png">
+                    <p class="user">더미 작성자 1</p>
+                    <p>2021-01-01 00:00:00</p>
+                </div>
+                <div class="commentTitle">
+                    <div><form><button class="commentButton">수정</button></form></div>
+                    <div class="titleButton"><form><button class="commentButton">삭제</button></form></div>
+                </div>
+            </div>
+            <div class="commentText"><p>댓글 내용</p></div>
+        </div>
+    </section>
+    <script src="/boardDetail.js"></script>
+</body>
+</html>

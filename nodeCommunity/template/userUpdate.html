@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>userUpdate</title>
+</head>
+<body>
+    <header>
+        <p class="text">아무 말 대잔치</p>
+        <button class="headerImage">
+            <ul>
+                <li><a href="./userUpdate.html">회원정보수정</a></li>
+                <li><a href="./userPassword.html">비밀번호수정</a></li>
+                <li><a href="./login.html">로그아웃</a></li>
+            </ul>
+        </button>
+    </header>
+    <section class="wrap">
+        <div class="modal">
+            <div class="popup">
+                <p>회원탈퇴 하시겠습니까?</p>
+                <label>작성된 게시글과 댓글은 삭제됩니다.</label>
+                <div class="popupButton">
+                    <form><button class="cancel">취소</button></form>
+                    <form><button type="button" class="ok">확인</button></form>
+                </div>
+            </div>
+        </div>
+        <div class="userUpdate"><p>회원정보수정</p></div>
+        <div class="profileText"><p>프로필 사진*</p></div>
+        <div class="profile">
+            <div class="profileImage">
+                <button class="update" id="change">변경</button>
+            </div>
+        </div>
+        <div class="userInfo">
+            <p class="bold">이메일</p>
+            <p class="mail">rkrkrkrk02@naver.com</p>
+            <p class="bold">닉네임</p>
+            <form><input class="nickname" id="userName" type="text" placeholder="theo.park"></form>
+            <p class="help" id="help">* 닉네임을 입력해주세요.</p>
+        </div>
+        <div class="edit"><form><button type="button" id="edit">수정하기</button></form></div>
+        <div class="out"><form><button type="button" id="leave">회원 탈퇴</button></form></div>
+        <div class="done"><p>수정완료</p></div>
+    </section>
+    <footer></footer>
+    <script src="/userUpdate.js"></script>
+</body>
+</html>
